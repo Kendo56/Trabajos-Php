@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="formulario.php" method="POST">
+        <label>Nombre: </label>
+        <input type="text" id="nombre" name="nombre"><br></br>
+        
+        <label>Apellido: </label>
+        <input type="text" id="apellido" name="apellido"><br></br>
+        
+        <label>Numero: </label>
+        <input type="number" id="numero" name="numero"><br></br>
+        
+        <label>Email: </label>
+        <input type="email" id="email" name="email"><br></br>
+        
+        <label>Ciudad: </label>
+        <select name="ciudad">
+            <option value="Bogotá">Bogotá</option>
+            <option value="Medellín">Medellín</option>
+            <option value="Cali">Cali</option>
+        </select><br></br>
+        
+        <label>Deporte favorito: </label><br>
+        <input type="radio" id="futbol" name="deporte" value="Fútbol">
+        <label for="futbol">Fútbol</label><br>
+        
+        <input type="radio" id="basquet" name="deporte" value="Básquet">
+        <label for="basquet">Básquet</label><br>
+        
+        <input type="radio" id="beisbol" name="deporte" value="Béisbol">
+        <label for="beisbol">Béisbol</label><br></br>
+        
+        <button type="submit">Enviar</button>
+    </form>    
+</body>
+</html>
