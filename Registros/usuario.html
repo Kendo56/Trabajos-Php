@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="Datos.php" method="POST">
+        <div class="mb-3">
+          <label for="email">Ingrese email</label>
+          <input type="email" id="email" name="email" required >
+          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <div class="mb-3">
+          <label for="contraseña">Contraseña</label>
+          <input type="password"  id="clave" name="clave" required>
+        </div>
+        <div class="mb-3">
+          <label for="telefono">Telefono</label>
+          <input type="number"  id="telefono" name="telefono" required>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+</body>
+</html>
